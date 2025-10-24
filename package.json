@@ -2,6 +2,9 @@
   "name": "package-lock-fix",
   "version": "0.1.0",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "bin": {
     "package-lock-fix": "./dist/index.js"
   },
