@@ -4,20 +4,10 @@ Add missing integrity and resolved fields to a package-lock.json file.
 
 [![ci][1]][2]
 
-## Installation
-
-```sh
-npm install -g npm-lockfile-fix-ts
-```
-
-```sh
-npx npm-lockfile-fix-ts
-```
-
 ## Usage
 
 ```sh
-npm-lockfile-fix <path/to/package-lock.json> [options]
+npx npm-lockfile-fix <path/to/package-lock.json> [options]
 ```
 
 ### Options
@@ -32,19 +22,19 @@ npm-lockfile-fix <path/to/package-lock.json> [options]
 #### Fix lockfile in place
 
 ```sh
-npm-lockfile-fix ./package-lock.json
+npx npm-lockfile-fix ./package-lock.json
 ```
 
 #### Output to stdout
 
 ```sh
-npm-lockfile-fix ./package-lock.json --cout
+npx npm-lockfile-fix ./package-lock.json --cout
 ```
 
 #### Save to different file
 
 ```sh
-npm-lockfile-fix ./package-lock.json -o ./fixed-package-lock.json
+npx npm-lockfile-fix ./package-lock.json -o ./fixed-package-lock.json
 ```
 
 ## Development
@@ -67,13 +57,13 @@ yarn test
 yarn build
 ```
 
-## License
-
-MIT
-
 ## Credits
 
 Heavily inspired by a similar Python/Nix CLI tool: [npm-lockfile-fix][3].
+
+## License
+
+MIT
 
 [1]: https://github.com/fbluemle/package-lock-fix/workflows/ci/badge.svg
 [2]: https://github.com/fbluemle/package-lock-fix/actions
