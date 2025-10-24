@@ -1,6 +1,6 @@
 {
   "name": "package-lock-fix",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Add missing integrity and resolved fields to a package-lock.json file.",
   "main": "dist/index.js",
   "files": [
