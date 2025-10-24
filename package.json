@@ -1,6 +1,7 @@
 {
   "name": "package-lock-fix",
   "version": "0.1.0",
+  "description": "Add missing integrity and resolved fields to a package-lock.json file.",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -12,8 +13,25 @@
     "build": "tsc",
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fbluemle/package-lock-fix.git"
+  },
+  "keywords": [
+    "fix",
+    "integrity",
+    "lockfile",
+    "npm",
+    "package-lock",
+    "repair",
+    "resolved"
+  ],
   "author": "Frieder Bluemle <frieder.bluemle@gmail.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fbluemle/package-lock-fix/issues"
+  },
+  "homepage": "https://github.com/fbluemle/package-lock-fix",
   "dependencies": {
     "commander": "^11.0.0"
   },
