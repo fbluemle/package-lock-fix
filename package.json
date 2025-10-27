@@ -7,7 +7,7 @@
     "dist"
   ],
   "bin": {
-    "package-lock-fix": "./dist/index.js"
+    "package-lock-fix": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fbluemle/package-lock-fix.git"
+    "url": "git+https://github.com/fbluemle/package-lock-fix.git"
   },
   "keywords": [
     "fix",
